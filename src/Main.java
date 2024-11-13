@@ -8,6 +8,7 @@ public class Main {
         floorPlan.printFloorPlan();
 
         // Initialize Clean Sweep with the floor plan
+        //adding c1
         CleanSweep cleanSweep = new CleanSweep(floorPlan);
         cleanSweep.run();
     }
